@@ -1,4 +1,4 @@
-var ss = SpreadsheetApp.openByUrl("https://docs.google.com/spreadsheets/d/1ZStjM_wOQAv4LUZF6J44go5PdYaDH8xOFztgQVnNKec/edit#gid=0");
+var ss = SpreadsheetApp.openByUrl("URL-spreadsheet");
 
 var sheet = ss.getSheetByName('Barang'); // be very careful ... it is the sheet name .. so it should match 
 

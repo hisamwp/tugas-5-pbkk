@@ -55,7 +55,7 @@ public class AddItem extends AppCompatActivity implements View.OnClickListener {
 
 
         StringRequest stringRequest = new StringRequest(Request.Method.POST,
-                "https://script.google.com/macros/s/AKfycbzUKZ1Z0XzwhrnlHL_AUbiS9d5qnT9K8MbqnoSUODipbB_qyyY/exec",
+                "URL-webapps-setelah-deploy",
                 new Response.Listener<String>() {
                     @Override
                     public void onResponse(String response) {
